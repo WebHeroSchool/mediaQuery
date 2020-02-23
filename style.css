@@ -39,3 +39,15 @@
 	height: 6px;
 	width: 100%;
 }
+
+/* smartphones, iPhone, portrait 480x320 phones */
+
+@media (min-width:320px) {
+	.burger {
+	display: flex;
+	}
+
+	.nav {
+	display: none;
+	}
+}
