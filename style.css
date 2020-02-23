@@ -23,7 +23,6 @@
 }
 
 .burger {
-	/*display: flex;*/
 	display: none;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -42,7 +41,11 @@
 
 /* smartphones, iPhone, portrait 480x320 phones */
 
-@media (min-width:320px) {
+@media (max-width: 482px) {
+	.header {
+		justify-content: flex-end;
+	}
+
 	.burger {
 	display: flex;
 	}
