@@ -1,0 +1,41 @@
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav__link {
+	background: #de7777;
+	border-radius: 8px;
+	color: #fff;
+	font: bolder 16px "verdana", sans-serif;
+	text-decoration: none;
+	padding: 8px;
+	margin-right: 8px;
+	min-width: 90px;
+}
+
+.burger {
+	/*display: flex;*/
+	display: none;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 34px;
+	height: 50px;
+	width: 50px;
+}
+
+.burger__line {
+	background: #de7777;
+	display: inline-block;
+	height: 6px;
+	width: 100%;
+}
